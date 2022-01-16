@@ -6,18 +6,11 @@
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" height="100" />
-  <div>
-    {{ $t('message.apple', 0) }}
-  </div>
-  <div>
-    {{ $t('message.apple', 1) }}
-  </div>
-  <div>
-    {{ $t('message.apple', 2) }}
-  </div>
-  <div>
-    {{ $t('message.apple', 5) }}
-  </div>
+  <p>{{ $t('car', 1) }}</p>
+  <p>{{ $t('car', 2) }}</p>
+  <p>{{ $t('car', 4) }}</p>
+  <p>{{ $t('car', 12) }}</p>
+  <p>{{ $t('car', 21) }}</p>
 </template>
 
 <style>
